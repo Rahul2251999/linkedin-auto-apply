@@ -1,0 +1,25 @@
+{
+  "name": "linkedin_auto_apply_prototype",
+  "version": "1.0.0",
+  "description": "LinkedIn Auto Apply Application - Simplified Version",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node src/test.js"
+  },
+  "keywords": [
+    "linkedin",
+    "automation",
+    "job",
+    "application"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "playwright": "^1.32.1",
+    "playwright-chromium": "^1.51.0"
+  }
+}
